@@ -5,6 +5,8 @@ clear;
 clc;
 delete(instrfindall) %현재 연결되어있는 시리얼포트 지움 
 
+% 추가가가가가ㅏㄱ 
+
 s=serial('COM3'); % 현재 아두이노가 컴퓨터에 연결되어 있는 포트 
 set(s,'BaudRate',9600) % 아두이노와 통신을 하게 될 통신속도 , 아두이노 코드에서 Serial.begin으로 설정해 준 속도와 같아야함 
 fopen(s); %설정한 포트와 통신을 시작 ,비로서 통신이 시작 
